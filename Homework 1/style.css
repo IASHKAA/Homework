@@ -1,0 +1,62 @@
+body{
+    background-image: url("https://static.wixstatic.com/media/84770f_55e52c1ac81f450fadd6509cbc317d0b~mv2.jpg/v1/fill/w_1854,h_1001,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_55e52c1ac81f450fadd6509cbc317d0b~mv2.jpg");
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+li{
+    list-style: none;
+}
+i{ 
+  font-size: 25px;
+    
+}
+h2{
+    font-size: 60px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    display: flex;
+   font-size: 30px;
+    color: white;
+    margin-top: -40px;
+ 
+}
+div{ 
+    display: flex;
+    flex-direction: column;
+    display: flex-start;
+    margin-left: 125px;
+    margin-top: 150px;
+    
+}
+.knox{ 
+    color: white;
+    display: flex;
+    margin-top: 450px;
+    font-size: 15px;
+    margin-left: 30px;}
+@keyframes slide-up {
+    from { opacity: 0.2;
+        line-height: 200px;
+        
+
+     }
+    to{ opacity: 1;
+        line-height: 25px;
+        
+
+    }
+}
+.contain { slide-up: 0.75s; 
+
+}
